@@ -34,6 +34,7 @@
     <loader readonly='yes' secure='yes' type='pflash'>/usr/share/edk2-ovmf/x64/OVMF_CODE.secboot.fd</loader>
     <nvram>/var/lib/libvirt/qemu/nvram/ryzen-gaming_VARS.fd</nvram>
     <boot dev='hd'/>
+    <smbios mode='host'/>
   </os>
   <features>
     <acpi/>
